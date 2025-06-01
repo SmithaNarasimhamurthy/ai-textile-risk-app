@@ -136,7 +136,7 @@ if not st.session_state.start_app:
     st.markdown(
         """
         <div style='text-align: center; padding: 20px; background-color: #e3f2fd; border-radius: 5px;'>
-            <h1 style='color: #1f77b4;'>Textile Supply Chain Risk Analyzer</h1>
+            <h1 style='color: #1f77b4;'>Risk Identification for Textile Dye Suppliers</h1>
             <p style='color: #333;'> using <b>Machine Learning</b> and <b>Natural Language processing</b></p>
         </div>
         """,
@@ -162,7 +162,7 @@ df['published_datetime_utc'] = pd.to_datetime(df['published_datetime_utc'], erro
 df['Year'] = df['published_datetime_utc'].dt.year
 
 st.markdown("""
-    <h1 style='text-align: center; color: #1f4e79;'>Textile Supply Chain Risk Analyzer</h1>
+    <h1 style='text-align: center; color: #1f4e79;'>Risk Identification for Textile Dye Suppliers</h1>
     <h4 style='text-align: center;'>Using Machine Learning and Natural Language Processing</h4>
     <hr>
 """, unsafe_allow_html=True)
